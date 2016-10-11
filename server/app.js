@@ -12,4 +12,6 @@ app.get('/',function(req, res){
   res.sendFile(path.resolve('public/views/index.html'));
 });//app.get
 
+app.use('/styles', express.static(__dirname + '/node_modules/bootstrap/dist/'));
+
 app.use(express.static('public'));
