@@ -11,21 +11,25 @@
     <script src="../scripts/controllers/protien.js" charset="utf-8"></script>
     <script src="../scripts/controllers/SorB.js" charset="utf-8"></script>
     <script src="../scripts/controllers/topping.js" charset="utf-8"></script>
+    <script src="../scripts/controllers/slider.js" charset="utf-8"></script>
+    <script src="../scripts/controllers/finish.js" charset="utf-8"></script>
+
     <!-- controllers -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../vendors/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="../styles/main.css" media="screen" title="no title">
     <title>Fingers and Forks</title>
   </head>
   <body ng-app = "myApp">
-    <div class="">
+    <div class="row">
 
     <!-- <div ng-controller = "fakeController" class="">
     </div> -->
 
-    <h1>Food!</h1>
-    <div class="logo">
+    <div class="logo text-center">
 
-    <img src="http://placehold.it/350x150">
+    <!-- <img src="http://placehold.it/350x150"> -->
     <h4>logo placeholder</h4>
   </div>
 
@@ -37,11 +41,17 @@
       <li class = "navbar-brand"><a href="#protien">protien</a></li>
       <li class = "navbar-brand"><a href="#SorB">SorB</a></li>
       <li class = "navbar-brand"><a href="#topping">topping</a></li>
+      <li class = "navbar-brand"><a href="#finish">finish</a></li>
+      <li class = "navbar-brand"><a href="#slider">slider</a></li>
+
 
     </ul>
     <main ng-view class="">
 
    </main>
+   <div class="orderTracker">
+     <h4>orders will be tracked down here</h4>
+   </div>
 
   </body>
 </html>
