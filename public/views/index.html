@@ -12,14 +12,15 @@
     <script src="../scripts/controllers/SorB.js" charset="utf-8"></script>
     <script src="../scripts/controllers/topping.js" charset="utf-8"></script>
     <!-- controllers -->
-    <link rel="stylesheet" href="styles/css/bootstrap.min.css" media="screen" title="no title">
-
+    <link rel="stylesheet" href="../vendors/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="../styles/main.css" media="screen" title="no title">
     <title>Fingers and Forks</title>
   </head>
   <body ng-app = "myApp">
-    <div ng-controller = "fakeController" class="">
-    </div>
+    <div class="">
+
+    <!-- <div ng-controller = "fakeController" class="">
+    </div> -->
 
     <h1>Food!</h1>
     <div class="logo">
@@ -28,12 +29,14 @@
     <h4>logo placeholder</h4>
   </div>
 
-    <ul>
-      <li><a href="#base">base</a></li>
-      <li><a href="#loginDecision">loginDecision</a></li>
-      <li><a href="#protien">protien</a></li>
-      <li><a href="#SorB">SorB</a></li>
-      <li><a href="#topping">topping</a></li>
+  </div>
+
+    <ul  class = "navbar navbar-light bg-faded">
+      <li class = "navbar-brand"><a href="#base">base</a></li>
+      <li class = "navbar-brand"><a href="#loginDecision">loginDecision</a></li>
+      <li class = "navbar-brand"><a href="#protien">protien</a></li>
+      <li class = "navbar-brand"><a href="#SorB">SorB</a></li>
+      <li class = "navbar-brand"><a href="#topping">topping</a></li>
 
     </ul>
     <main ng-view class="">
