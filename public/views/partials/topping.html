@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <body ng-controller = "toppingController">
-<h1>topping</h1>
-<div class="row">
-  <div class="col-md-6 guest">
-    <div class="col-md-12">
-
-    <span><a href="#SorB">
-    <div class="card">
-      <img class="card-img-top" src="http://placehold.it/450x150" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Lettuce</h4>
+<body ng-controller = "toppingController">
+  <h1>topping</h1>
+  <div class="row">
+    <div class="col-md-1">
+      <a href="#protien">
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-menu-left"></span>
+        </button>
+      </a>
+    </div>
+    <div class="col-md-10">
+      <div class="row toppingRow">
+        <div class="col-md-5 guest">
+          <div class="col-md-12">
+            <span value = "Lettuce" ng-click = "addTopping('Lettuce')"><a>
+              <div class="card">
+                <img class="card-img-top toppingImg" src="http://placehold.it/450x150" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Lettuce</h4>
+                </div>
+              </div>
+            </a></span>
+          </div>
+        </div>
+        <div class="col-md-5 guest">
+          <div class="col-md-12">
+            <span ng-click = "addTopping('Spinach')"><a>
+              <div class="card">
+                <img class="card-img-top toppingImg" src="http://placehold.it/450x150" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Spinach</h4>
+                </div>
+              </div>
+            </a></span>
+          </div>
         </div>
       </div>
-    </a></span>
+      <div class="row toppingRow">
+        <div class="col-md-5 guest">
+          <div class="col-md-12">
+            <span ng-click = "addTopping('Chickpeas')"><a>
+              <div class="card">
+                <img class="card-img-top toppingImg" src="http://placehold.it/450x150" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Chickpeas</h4>
+                </div>
+              </div>
+            </a></span>
+          </div>
+        </div>
+        <div class="col-md-5 guest">
+          <div class="col-md-12">
+            <span ng-click = "addTopping('Arugawhatever')"><a>
+              <div class="card">
+                <img class="card-img-top toppingImg" src="http://placehold.it/450x150" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Arugala</h4>
+                </div>
+              </div>
+            </a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <a href="#finish">
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-menu-right"></span>
+        </button>
+      </a>
     </div>
   </div>
 
-  <div class="col-md-6 guest">
-    <div class="col-md-12">
-
-    <span><a href="#base">
-    <div class="card">
-      <img class="card-img-top" src="http://placehold.it/450x150" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Spinach</h4>
-        </div>
-      </div>
-    </a></span>
-    </div>
-  </div>
-
-</div>
-<div class="row">
-  <div class="col-md-6 guest">
-    <div class="col-md-12">
-
-    <span><a href="#SorB">
-    <div class="card">
-      <img class="card-img-top" src="http://placehold.it/450x150" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Chickpeas</h4>
-        </div>
-      </div>
-    </a></span>
-    </div>
-  </div>
-
-  <div class="col-md-6 guest">
-    <div class="col-md-12">
-
-    <span><a href="#base">
-    <div class="card">
-      <img class="card-img-top" src="http://placehold.it/450x150" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Arugala</h4>
-        </div>
-      </div>
-    </a></span>
-    </div>
-  </div>
-
-</div>
-  </body>
+</body>
 </html>

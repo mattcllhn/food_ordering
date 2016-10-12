@@ -18,10 +18,27 @@ li{
   width: 100%;
   height: 100px;
 }
+.sorbTiles{
+  height:219px;
+}
+.col-md-12{
+  height:100%;
+}
+.toppingImg{
+  height:100px;
+}
+.btn{
+  margin-top: 100px;
+  width:100%;
+  height: 100px;
+
+}
+.sliderRow{
+  margin-top: 100px;
+}
+.toppingRow{
+  height:100%;
+}
 .card-img-top{
 width: 100%;
-}
-.rice{
-  max-width: 100%;
-  max-height:inherit;
 }
