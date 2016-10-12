@@ -3,7 +3,14 @@
   <body ng-controller = "SorBController">
     <h1>Finish and Pay</h1>
     <div class="row">
-      <div class="col-md-6 guest">
+      <div class="col-md-1">
+        <a href="#topping">
+          <button type="button" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-menu-left"></span>
+          </button>
+        </a>
+      </div>
+      <div class="col-md-5 guest">
         <div class="col-md-12">
 
         <span><a href="#SorB">
@@ -17,10 +24,10 @@
         </div>
       </div>
 
-      <div class="col-md-6 guest">
+      <div class="col-md-5 guest">
         <div class="col-md-12">
 
-        <span ng-click = "congrats()"><a href="#SorB">
+        <span ng-click = "congrats()"><a href="#loginDecision">
         <div class="card">
           <img class="card-img-top" src="http://placehold.it/450x150" alt="Card image cap">
           <div class="card-block">
@@ -30,7 +37,8 @@
         </a></span>
         </div>
       </div>
-
+      <div class="col-md-1">
+      </div>
   </div>
   </body>
 </html>

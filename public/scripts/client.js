@@ -36,7 +36,7 @@ myApp.config(["$routeProvider", function($routeProvider){
     controller: "sliderController"
   }).
   otherwise({
-    redirectTo: "/"
+    redirectTo: "/loginDecision"
   });
 }]);
 
